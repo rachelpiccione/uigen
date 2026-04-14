@@ -23,7 +23,11 @@
       "Bash(npx -y http-server -p 8080 -c-1 --cors -o false)",
       "Bash(echo \"Server PID: $!\")",
       "mcp__playwright__browser_close",
-      "Bash(pkill -f \"mcp-chrome\")"
+      "Bash(pkill -f \"mcp-chrome\")",
+      "Bash(git pull:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }
